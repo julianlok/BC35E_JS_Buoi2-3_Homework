@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript - Homework -B2+3</title>
+
+    <!-- My css -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- My css -->
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <!-- Bootstrap CSS -->
+
+  </head>
+
+  <body style="background-color: #eee">
+    <h1 style="font-size: 3rem; text-align: center">
+      Javascript - Homework - B2+3
+    </h1>
+
+    <!-- Bài Tập 1 + 2-->
+    <div class="container py-3">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Bài tập 1: Tính lương nhân viên</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label>Số ngày làm</label>
+                <input id="soNgayLam" type="text" class="form-control" />
+              </div>
+              <button id="btnTinhLuong" class="btn btn-primary">
+                Tính lương
+              </button>
+            </div>
+            <div id="showLuong" class="card-footer text-muted"></div>
+          </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+              <div class="card-header">Bài tập 2: Tính giá trị trung bình</div>
+              <div class="card-body">
+                <div class="form-group">
+                  <label>Số 1</label>
+                  <input id="number_1" type="number" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label>Số 2</label>
+                  <input id="number_2" type="number" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label>Số 3</label>
+                  <input id="number_3" type="number" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label>Số 4</label>
+                  <input id="number_4" type="number" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label>Số 5</label>
+                  <input id="number_5" type="number" class="form-control" />
+                </div>
+                <button id="btnAvg" class="btn btn-danger">
+                  Tính Trung Bình
+                </button>
+              </div>
+              <div id="showAvg" class="card-footer text-muted"></div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bài Tập 1 + 2-->
+
+    <!-- Bài tập 3 + 4-->
+    <div class="container py-3">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header">Bài tập 3: Quy đổi tiền USD</div>
+              <div class="card-body">
+                <div class="form-group">
+                  <label>Nhập USD cần đổi</label>
+                  <input id="usdCur" type="number" class="form-control" />
+                </div>
+                <button id="btnExchange" class="btn btn-warning">
+                  Quy đổi tiền
+                </button>
+              </div>
+              <div id="showQuyDoiTien" class="card-footer text-muted"></div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header">Bài tập 4: Tính diện tích & chu vi HCN</div>
+              <div class="card-body">
+                <div class="form-group">
+                  <label>Chiều dài</label>
+                  <input id="chieuDai" type="number" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label>Chiều rộng</label>
+                    <input id="chieuRong" type="number" class="form-control" />
+                  </div>
+                <button id="btnDtCv" class="btn btn-info">
+                  Tính diện tích chu vi HCN
+                </button>
+              </div>
+              <div id="showDtCv" class="card-footer text-muted"></div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- Bài tập 3 + 4-->
+
+    
+    <!-- Bài tập 5 -->
+    <div class="container py-3">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header">Bài tập 5: Tính tổng 2 ký số</div>
+              <div class="card-body">
+                <div class="form-group">
+                  <label>Nhập số có 2 ký số</label>
+                  <input id="so" type="number" class="form-control" />
+                </div>
+                <button id="btnKySo" class="btn btn-success">
+                  Tính tổng 2 ký số
+                </button>
+              </div>
+              <div id="showSo" class="card-footer text-muted"></div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- Bài tập 5 -->     
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script src="./Bai_Tap_1.js"></script>
+    <script src="./Bai_Tap_2.js"></script>
+    <script src="./Bai_Tap_3.js"></script>
+    <script src="./Bai_Tap_4.js"></script>
+    <script src="./Bai_Tap_5.js"></script>
+    <!-- jQuery -->
+
+  </body>
+</html>
